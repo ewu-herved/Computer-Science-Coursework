@@ -1,0 +1,105 @@
+dherve@cslinux:~/cscd340/HW1$ valgrind ./hw1
+==2051== Memcheck, a memory error detector
+==2051== Copyright (C) 2002-2011, and GNU GPL'd, by Julian Seward et al.
+==2051== Using Valgrind-3.7.0 and LibVEX; rerun with -h for copyright info
+==2051== Command: ./hw1
+==2051==
+Please enter the name of an input file: input.txt
+
+
+1) Print the List
+2) Add First
+3) Add Last
+4) Sort the List(ascending order)
+5) Delete a Word
+6) Quit -
+
+Choice--> 1
+
+[a, aardvark, aback, abacus, abaft, abalone, abandon, abandoned, abase, abash, abate, azure, b, babble, babe, babel, baboon, babushka, baby, baccalaureate, bacchanalia, bachelor, bacillus, back]
+
+1) Print the List
+2) Add First
+3) Add Last
+4) Sort the List(ascending order)
+5) Delete a Word
+6) Quit -
+
+Choice--> 2
+
+What word would you like to add or remove: zed
+1) Print the List
+2) Add First
+3) Add Last
+4) Sort the List(ascending order)
+5) Delete a Word
+6) Quit -
+
+Choice--> 3
+
+What word would you like to add or remove: apple
+1) Print the List
+2) Add First
+3) Add Last
+4) Sort the List(ascending order)
+5) Delete a Word
+6) Quit -
+
+Choice--> 5
+
+What word would you like to add or remove: a
+==2051== Invalid read of size 8
+==2051==    at 0x400DE1: removeItem (in /home/EASTERN/dherve/cscd340/HW1/hw1)
+==2051==    by 0x4009D8: main (in /home/EASTERN/dherve/cscd340/HW1/hw1)
+==2051==  Address 0x51f2260 is 0 bytes inside a block of size 4 alloc'd
+==2051==    at 0x4C29DB4: calloc (in /usr/lib/valgrind/vgpreload_memcheck-amd64-linux.so)
+==2051==    by 0x400AAB: buildNode (in /home/EASTERN/dherve/cscd340/HW1/hw1)
+==2051==    by 0x40096D: main (in /home/EASTERN/dherve/cscd340/HW1/hw1)
+==2051==
+==2051== Invalid read of size 8
+==2051==    at 0x400DEB: removeItem (in /home/EASTERN/dherve/cscd340/HW1/hw1)
+==2051==    by 0x4009D8: main (in /home/EASTERN/dherve/cscd340/HW1/hw1)
+==2051==  Address 0x51f23a0 is 0 bytes inside a block of size 2 alloc'd
+==2051==    at 0x4C29DB4: calloc (in /usr/lib/valgrind/vgpreload_memcheck-amd64-linux.so)
+==2051==    by 0x400AAB: buildNode (in /home/EASTERN/dherve/cscd340/HW1/hw1)
+==2051==    by 0x4009C1: main (in /home/EASTERN/dherve/cscd340/HW1/hw1)
+==2051==
+1) Print the List
+2) Add First
+3) Add Last
+4) Sort the List(ascending order)
+5) Delete a Word
+6) Quit -
+
+Choice--> 4
+
+1) Print the List
+2) Add First
+3) Add Last
+4) Sort the List(ascending order)
+5) Delete a Word
+6) Quit -
+
+Choice--> 1
+
+[aardvark, aback, abacus, abaft, abalone, abandon, abandoned, abase, abash, abate, apple, azure, b, babble, babe, babel, baboon, babushka, baby, baccalaureate, bacchanalia, bachelor, bacillus, back, zed]
+
+1) Print the List
+2) Add First
+3) Add Last
+4) Sort the List(ascending order)
+5) Delete a Word
+6) Quit -
+
+Choice--> 6
+
+==2051==
+==2051== HEAP SUMMARY:
+==2051==     in use at exit: 0 bytes in 0 blocks
+==2051==   total heap usage: 56 allocs, 56 frees, 1,198 bytes allocated
+==2051==
+==2051== All heap blocks were freed -- no leaks are possible
+==2051==
+==2051== For counts of detected and suppressed errors, rerun with: -v
+==2051== ERROR SUMMARY: 4 errors from 2 contexts (suppressed: 2 from 2)
+dherve@cslinux:~/cscd340/HW1$

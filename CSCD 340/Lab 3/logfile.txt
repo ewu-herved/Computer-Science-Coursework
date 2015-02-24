@@ -1,0 +1,328 @@
+15929 execve("./a.out", ["./a.out", "4", "10"], [/* 20 vars */]) = 0
+15929 brk(0)                            = 0x1d27000
+15929 access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+15929 mmap(NULL, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7fe518920000
+15929 access("/etc/ld.so.preload", R_OK) = -1 ENOENT (No such file or directory)
+15929 open("/etc/ld.so.cache", O_RDONLY|O_CLOEXEC) = 3
+15929 fstat(3, {st_mode=S_IFREG|0644, st_size=40453, ...}) = 0
+15929 mmap(NULL, 40453, PROT_READ, MAP_PRIVATE, 3, 0) = 0x7fe518916000
+15929 close(3)                          = 0
+15929 access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+15929 open("/lib/x86_64-linux-gnu/libc.so.6", O_RDONLY|O_CLOEXEC) = 3
+15929 read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\200\30\2\0\0\0\0\0"..., 832) = 832
+15929 fstat(3, {st_mode=S_IFREG|0755, st_size=1811128, ...}) = 0
+15929 mmap(NULL, 3925176, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7fe518341000
+15929 mprotect(0x7fe5184f6000, 2093056, PROT_NONE) = 0
+15929 mmap(0x7fe5186f5000, 24576, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x1b4000) = 0x7fe5186f5000
+15929 mmap(0x7fe5186fb000, 17592, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7fe5186fb000
+15929 close(3)                          = 0
+15929 mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7fe518915000
+15929 mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7fe518914000
+15929 mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7fe518913000
+15929 arch_prctl(ARCH_SET_FS, 0x7fe518914700) = 0
+15929 mprotect(0x7fe5186f5000, 16384, PROT_READ) = 0
+15929 mprotect(0x600000, 4096, PROT_READ) = 0
+15929 mprotect(0x7fe518922000, 4096, PROT_READ) = 0
+15929 munmap(0x7fe518916000, 40453)     = 0
+15929 rt_sigprocmask(SIG_BLOCK, [CHLD], [], 8) = 0
+15929 rt_sigaction(SIGCHLD, NULL, {SIG_DFL, [], 0}, 8) = 0
+15929 rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0
+15929 nanosleep({4, 0}, 15934 execve("./a.out", ["./a.out", "4", "10"], [/* 20 vars */]) = 0
+15934 brk(0)                            = 0x24d4000
+15934 access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+15934 mmap(NULL, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f873a19f000
+15934 access("/etc/ld.so.preload", R_OK) = -1 ENOENT (No such file or directory)
+15934 open("/etc/ld.so.cache", O_RDONLY|O_CLOEXEC) = 3
+15934 fstat(3, {st_mode=S_IFREG|0644, st_size=40453, ...}) = 0
+15934 mmap(NULL, 40453, PROT_READ, MAP_PRIVATE, 3, 0) = 0x7f873a195000
+15934 close(3)                          = 0
+15934 access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+15934 open("/lib/x86_64-linux-gnu/libc.so.6", O_RDONLY|O_CLOEXEC) = 3
+15934 read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\200\30\2\0\0\0\0\0"..., 832) = 832
+15934 fstat(3, {st_mode=S_IFREG|0755, st_size=1811128, ...}) = 0
+15934 mmap(NULL, 3925176, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f8739bc0000
+15934 mprotect(0x7f8739d75000, 2093056, PROT_NONE) = 0
+15934 mmap(0x7f8739f74000, 24576, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x1b4000) = 0x7f8739f74000
+15934 mmap(0x7f8739f7a000, 17592, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7f8739f7a000
+15934 close(3)                          = 0
+15934 mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f873a194000
+15934 mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f873a193000
+15934 mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f873a192000
+15934 arch_prctl(ARCH_SET_FS, 0x7f873a193700) = 0
+15934 mprotect(0x7f8739f74000, 16384, PROT_READ) = 0
+15934 mprotect(0x600000, 4096, PROT_READ) = 0
+15934 mprotect(0x7f873a1a1000, 4096, PROT_READ) = 0
+15934 munmap(0x7f873a195000, 40453)     = 0
+15934 rt_sigprocmask(SIG_BLOCK, [CHLD], [], 8) = 0
+15934 rt_sigaction(SIGCHLD, NULL, {SIG_DFL, [], 0}, 8) = 0
+15934 rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0
+15934 nanosleep({4, 0}, 15938 execve("./a.out", ["./a.out", "4", "10"], [/* 20 vars */]) = 0
+15938 brk(0)                            = 0x16b0000
+15938 access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+15938 mmap(NULL, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f0bf48b4000
+15938 access("/etc/ld.so.preload", R_OK) = -1 ENOENT (No such file or directory)
+15938 open("/etc/ld.so.cache", O_RDONLY|O_CLOEXEC) = 3
+15938 fstat(3, {st_mode=S_IFREG|0644, st_size=40453, ...}) = 0
+15938 mmap(NULL, 40453, PROT_READ, MAP_PRIVATE, 3, 0) = 0x7f0bf48aa000
+15938 close(3)                          = 0
+15938 access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+15938 open("/lib/x86_64-linux-gnu/libc.so.6", O_RDONLY|O_CLOEXEC) = 3
+15938 read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\200\30\2\0\0\0\0\0"..., 832) = 832
+15938 fstat(3, {st_mode=S_IFREG|0755, st_size=1811128, ...}) = 0
+15938 mmap(NULL, 3925176, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f0bf42d5000
+15938 mprotect(0x7f0bf448a000, 2093056, PROT_NONE) = 0
+15938 mmap(0x7f0bf4689000, 24576, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x1b4000) = 0x7f0bf4689000
+15938 mmap(0x7f0bf468f000, 17592, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7f0bf468f000
+15938 close(3)                          = 0
+15938 mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f0bf48a9000
+15938 mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f0bf48a8000
+15938 mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f0bf48a7000
+15938 arch_prctl(ARCH_SET_FS, 0x7f0bf48a8700) = 0
+15938 mprotect(0x7f0bf4689000, 16384, PROT_READ) = 0
+15938 mprotect(0x600000, 4096, PROT_READ) = 0
+15938 mprotect(0x7f0bf48b6000, 4096, PROT_READ) = 0
+15938 munmap(0x7f0bf48aa000, 40453)     = 0
+15938 rt_sigprocmask(SIG_BLOCK, [CHLD], [], 8) = 0
+15938 rt_sigaction(SIGCHLD, NULL, {SIG_DFL, [], 0}, 8) = 0
+15938 rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0
+15938 nanosleep({4, 0}, 0x7fff0a04d450) = 0
+15929 getpid()                          = 15929
+15929 write(2, "Executing lab1prob1, process id "..., 58) = 58
+15929 rt_sigprocmask(SIG_BLOCK, [CHLD], [], 8) = 0
+15929 rt_sigaction(SIGCHLD, NULL, {SIG_DFL, [], 0}, 8) = 0
+15929 rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0
+15929 nanosleep({4, 0}, 0x7ffff3cf4ab0) = 0
+15934 getpid()                          = 15934
+15934 write(2, "Executing lab1prob1, process id "..., 58) = 58
+15934 rt_sigprocmask(SIG_BLOCK, [CHLD], [], 8) = 0
+15934 rt_sigaction(SIGCHLD, NULL, {SIG_DFL, [], 0}, 8) = 0
+15934 rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0
+15934 nanosleep({4, 0}, 0x7ffff0734130) = 0
+15938 getpid()                          = 15938
+15938 write(2, "Executing lab1prob1, process id "..., 58) = 58
+15938 rt_sigprocmask(SIG_BLOCK, [CHLD], [], 8) = 0
+15938 rt_sigaction(SIGCHLD, NULL, {SIG_DFL, [], 0}, 8) = 0
+15938 rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0
+15938 nanosleep({4, 0}, 0x7fff0a04d450) = 0
+15929 write(2, "Executing lab1prob1, process id "..., 58) = 58
+15929 rt_sigprocmask(SIG_BLOCK, [CHLD], [], 8) = 0
+15929 rt_sigaction(SIGCHLD, NULL, {SIG_DFL, [], 0}, 8) = 0
+15929 rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0
+15929 nanosleep({4, 0}, 0x7ffff3cf4ab0) = 0
+15934 write(2, "Executing lab1prob1, process id "..., 58) = 58
+15934 rt_sigprocmask(SIG_BLOCK, [CHLD], [], 8) = 0
+15934 rt_sigaction(SIGCHLD, NULL, {SIG_DFL, [], 0}, 8) = 0
+15934 rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0
+15934 nanosleep({4, 0}, 0x7ffff0734130) = 0
+15938 write(2, "Executing lab1prob1, process id "..., 58) = 58
+15938 rt_sigprocmask(SIG_BLOCK, [CHLD], [], 8) = 0
+15938 rt_sigaction(SIGCHLD, NULL, {SIG_DFL, [], 0}, 8) = 0
+15938 rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0
+15938 nanosleep({4, 0}, 0x7fff0a04d450) = 0
+15929 write(2, "Executing lab1prob1, process id "..., 58) = 58
+15929 rt_sigprocmask(SIG_BLOCK, [CHLD], [], 8) = 0
+15929 rt_sigaction(SIGCHLD, NULL, {SIG_DFL, [], 0}, 8) = 0
+15929 rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0
+15929 nanosleep({4, 0}, 0x7ffff3cf4ab0) = 0
+15934 write(2, "Executing lab1prob1, process id "..., 58) = 58
+15934 rt_sigprocmask(SIG_BLOCK, [CHLD], [], 8) = 0
+15934 rt_sigaction(SIGCHLD, NULL, {SIG_DFL, [], 0}, 8) = 0
+15934 rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0
+15934 nanosleep({4, 0}, 0x7ffff0734130) = 0
+15938 write(2, "Executing lab1prob1, process id "..., 58) = 58
+15938 rt_sigprocmask(SIG_BLOCK, [CHLD], [], 8) = 0
+15938 rt_sigaction(SIGCHLD, NULL, {SIG_DFL, [], 0}, 8) = 0
+15938 rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0
+15938 nanosleep({4, 0}, 0x7fff0a04d450) = 0
+15929 write(2, "Executing lab1prob1, process id "..., 58) = 58
+15929 rt_sigprocmask(SIG_BLOCK, [CHLD], [], 8) = 0
+15929 rt_sigaction(SIGCHLD, NULL, {SIG_DFL, [], 0}, 8) = 0
+15929 rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0
+15929 nanosleep({4, 0}, 0x7ffff3cf4ab0) = 0
+15934 write(2, "Executing lab1prob1, process id "..., 58) = 58
+15934 rt_sigprocmask(SIG_BLOCK, [CHLD], [], 8) = 0
+15934 rt_sigaction(SIGCHLD, NULL, {SIG_DFL, [], 0}, 8) = 0
+15934 rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0
+15934 nanosleep({4, 0}, 0x7ffff0734130) = 0
+15938 write(2, "Executing lab1prob1, process id "..., 58) = 58
+15938 rt_sigprocmask(SIG_BLOCK, [CHLD], [], 8) = 0
+15938 rt_sigaction(SIGCHLD, NULL, {SIG_DFL, [], 0}, 8) = 0
+15938 rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0
+15938 nanosleep({4, 0}, 0x7fff0a04d450) = 0
+15929 write(2, "Executing lab1prob1, process id "..., 58) = 58
+15929 rt_sigprocmask(SIG_BLOCK, [CHLD], [], 8) = 0
+15929 rt_sigaction(SIGCHLD, NULL, {SIG_DFL, [], 0}, 8) = 0
+15929 rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0
+15929 nanosleep({4, 0}, 0x7ffff3cf4ab0) = 0
+15934 write(2, "Executing lab1prob1, process id "..., 58) = 58
+15934 rt_sigprocmask(SIG_BLOCK, [CHLD], [], 8) = 0
+15934 rt_sigaction(SIGCHLD, NULL, {SIG_DFL, [], 0}, 8) = 0
+15934 rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0
+15934 nanosleep({4, 0}, 0x7ffff0734130) = 0
+15938 write(2, "Executing lab1prob1, process id "..., 58) = 58
+15938 rt_sigprocmask(SIG_BLOCK, [CHLD], [], 8) = 0
+15938 rt_sigaction(SIGCHLD, NULL, {SIG_DFL, [], 0}, 8) = 0
+15938 rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0
+15938 nanosleep({4, 0}, 0x7fff0a04d450) = 0
+15929 write(2, "Executing lab1prob1, process id "..., 58) = 58
+15929 rt_sigprocmask(SIG_BLOCK, [CHLD], [], 8) = 0
+15929 rt_sigaction(SIGCHLD, NULL, {SIG_DFL, [], 0}, 8) = 0
+15929 rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0
+15929 nanosleep({4, 0}, 0x7ffff3cf4ab0) = 0
+15934 write(2, "Executing lab1prob1, process id "..., 58) = 58
+15934 rt_sigprocmask(SIG_BLOCK, [CHLD], [], 8) = 0
+15934 rt_sigaction(SIGCHLD, NULL, {SIG_DFL, [], 0}, 8) = 0
+15934 rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0
+15934 nanosleep({4, 0}, 0x7ffff0734130) = 0
+15938 write(2, "Executing lab1prob1, process id "..., 58) = 58
+15938 rt_sigprocmask(SIG_BLOCK, [CHLD], [], 8) = 0
+15938 rt_sigaction(SIGCHLD, NULL, {SIG_DFL, [], 0}, 8) = 0
+15938 rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0
+15938 nanosleep({4, 0}, 0x7fff0a04d450) = 0
+15929 write(2, "Executing lab1prob1, process id "..., 58) = 58
+15929 rt_sigprocmask(SIG_BLOCK, [CHLD], [], 8) = 0
+15929 rt_sigaction(SIGCHLD, NULL, {SIG_DFL, [], 0}, 8) = 0
+15929 rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0
+15929 nanosleep({4, 0}, 0x7ffff3cf4ab0) = 0
+15934 write(2, "Executing lab1prob1, process id "..., 58) = 58
+15934 rt_sigprocmask(SIG_BLOCK, [CHLD], [], 8) = 0
+15934 rt_sigaction(SIGCHLD, NULL, {SIG_DFL, [], 0}, 8) = 0
+15934 rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0
+15934 nanosleep({4, 0}, 0x7ffff0734130) = 0
+15938 write(2, "Executing lab1prob1, process id "..., 58) = 58
+15938 rt_sigprocmask(SIG_BLOCK, [CHLD], [], 8) = 0
+15938 rt_sigaction(SIGCHLD, NULL, {SIG_DFL, [], 0}, 8) = 0
+15938 rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0
+15938 nanosleep({4, 0}, 0x7fff0a04d450) = 0
+15929 write(2, "Executing lab1prob1, process id "..., 58) = 58
+15929 rt_sigprocmask(SIG_BLOCK, [CHLD], [], 8) = 0
+15929 rt_sigaction(SIGCHLD, NULL, {SIG_DFL, [], 0}, 8) = 0
+15929 rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0
+15929 nanosleep({4, 0}, 0x7ffff3cf4ab0) = 0
+15934 write(2, "Executing lab1prob1, process id "..., 58) = 58
+15934 rt_sigprocmask(SIG_BLOCK, [CHLD], [], 8) = 0
+15934 rt_sigaction(SIGCHLD, NULL, {SIG_DFL, [], 0}, 8) = 0
+15934 rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0
+15934 nanosleep({4, 0}, 0x7ffff0734130) = 0
+15938 write(2, "Executing lab1prob1, process id "..., 58) = 58
+15938 rt_sigprocmask(SIG_BLOCK, [CHLD], [], 8) = 0
+15938 rt_sigaction(SIGCHLD, NULL, {SIG_DFL, [], 0}, 8) = 0
+15938 rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0
+15938 nanosleep({4, 0}, 0x7fff0a04d450) = 0
+15929 write(2, "Executing lab1prob1, process id "..., 58) = 58
+15929 rt_sigprocmask(SIG_BLOCK, [CHLD], [], 8) = 0
+15929 rt_sigaction(SIGCHLD, NULL, {SIG_DFL, [], 0}, 8) = 0
+15929 rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0
+15929 nanosleep({4, 0}, 0x7ffff3cf4ab0) = 0
+15934 write(2, "Executing lab1prob1, process id "..., 58) = 58
+15934 rt_sigprocmask(SIG_BLOCK, [CHLD], [], 8) = 0
+15934 rt_sigaction(SIGCHLD, NULL, {SIG_DFL, [], 0}, 8) = 0
+15934 rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0
+15934 nanosleep({4, 0}, 0x7ffff0734130) = 0
+15938 write(2, "Executing lab1prob1, process id "..., 58) = 58
+15938 rt_sigprocmask(SIG_BLOCK, [CHLD], [], 8) = 0
+15938 rt_sigaction(SIGCHLD, NULL, {SIG_DFL, [], 0}, 8) = 0
+15938 rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0
+15938 nanosleep({4, 0}, 0x7fff0a04d450) = 0
+15929 write(2, "Executing lab1prob1, process id "..., 59) = 59
+15929 write(2, "lab1prob1 is now executing...", 29) = 29
+15929 exit_group(0)                     = ?
+% time     seconds  usecs/call     calls    errors syscall
+------ ----------- ----------- --------- --------- ----------------
+ 32.56    0.000294          29        10           nanosleep
+ 29.24    0.000264         264         1           execve
+ 14.29    0.000129          12        11           write
+  5.20    0.000047           6         8           mmap
+  4.87    0.000044           2        20           rt_sigprocmask
+  3.54    0.000032           8         4           mprotect
+  2.77    0.000025           3        10           rt_sigaction
+  2.10    0.000019          10         2           open
+  1.88    0.000017           6         3         3 access
+  1.77    0.000016          16         1           munmap
+  0.44    0.000004           2         2           fstat
+  0.33    0.000003           3         1           read
+  0.33    0.000003           2         2           close
+  0.33    0.000003           3         1           getpid
+  0.22    0.000002           2         1           arch_prctl
+  0.11    0.000001           1         1           brk
+------ ----------- ----------- --------- --------- ----------------
+100.00    0.000903                    78         3 total
+0x7ffff3cf4ab0) = 0
+15934 write(2, "Executing lab1prob1, process id "..., 59) = 59
+15934 write(2, "lab1prob1 is now executing...", 29) = 29
+15934 exit_group(0)                     = ?
+% time     seconds  usecs/call     calls    errors syscall
+------ ----------- ----------- --------- --------- ----------------
+ 28.95    0.000304          30        10           nanosleep
+ 27.90    0.000293         293         1           execve
+ 10.19    0.000107          13         8           mmap
+  9.90    0.000104           9        11           write
+  5.24    0.000055          18         3         3 access
+  3.62    0.000038           2        20           rt_sigprocmask
+  3.52    0.000037          19         2           open
+  3.33    0.000035           9         4           mprotect
+  1.52    0.000016          16         1           munmap
+  1.43    0.000015           8         2           fstat
+  1.33    0.000014          14         1           brk
+  1.24    0.000013           7         2           close
+  1.24    0.000013           1        10           rt_sigaction
+  0.29    0.000003           3         1           read
+  0.19    0.000002           2         1           getpid
+  0.10    0.000001           1         1           arch_prctl
+------ ----------- ----------- --------- --------- ----------------
+100.00    0.001050                    78         3 total
+0x7ffff0734130) = 0
+15938 write(2, "Executing lab1prob1, process id "..., 59) = 59
+15938 write(2, "lab1prob1 is now executing...", 29) = 29
+15938 exit_group(0)                     = ?
+% time     seconds  usecs/call     calls    errors syscall
+------ ----------- ----------- --------- --------- ----------------
+ 32.67    0.000313         313         1           execve
+ 30.58    0.000293          29        10           nanosleep
+ 17.22    0.000165          15        11           write
+  4.91    0.000047           6         8           mmap
+  3.55    0.000034           2        20           rt_sigprocmask
+  3.03    0.000029           7         4           mprotect
+  1.77    0.000017           9         2           open
+  1.67    0.000016          16         1           munmap
+  1.67    0.000016           5         3         3 access
+  1.46    0.000014           1        10           rt_sigaction
+  0.42    0.000004           2         2           fstat
+  0.31    0.000003           3         1           read
+  0.31    0.000003           2         2           close
+  0.21    0.000002           2         1           brk
+  0.10    0.000001           1         1           getpid
+  0.10    0.000001           1         1           arch_prctl
+------ ----------- ----------- --------- --------- ----------------
+100.00    0.000958                    78         3 total
+Executing lab1prob1, process id 17561, iteration number 1
+Executing lab1prob1, process id 17564, iteration number 1
+Executing lab1prob1, process id 17565, iteration number 1
+Executing lab1prob1, process id 17561, iteration number 2
+Executing lab1prob1, process id 17564, iteration number 2
+Executing lab1prob1, process id 17565, iteration number 2
+Executing lab1prob1, process id 17561, iteration number 3
+Executing lab1prob1, process id 17564, iteration number 3
+Executing lab1prob1, process id 17565, iteration number 3
+Executing lab1prob1, process id 17561, iteration number 4
+Executing lab1prob1, process id 17564, iteration number 4
+Executing lab1prob1, process id 17565, iteration number 4
+Executing lab1prob1, process id 17561, iteration number 5
+Executing lab1prob1, process id 17564, iteration number 5
+Executing lab1prob1, process id 17565, iteration number 5
+Executing lab1prob1, process id 17561, iteration number 6
+Executing lab1prob1, process id 17564, iteration number 6
+Executing lab1prob1, process id 17565, iteration number 6
+Executing lab1prob1, process id 17561, iteration number 7
+Executing lab1prob1, process id 17564, iteration number 7
+Executing lab1prob1, process id 17565, iteration number 7
+Executing lab1prob1, process id 17561, iteration number 8
+Executing lab1prob1, process id 17564, iteration number 8
+Executing lab1prob1, process id 17565, iteration number 8
+Executing lab1prob1, process id 17561, iteration number 9
+Executing lab1prob1, process id 17564, iteration number 9
+Executing lab1prob1, process id 17565, iteration number 9
+Executing lab1prob1, process id 17561, iteration number 10
+lab1prob1 is now executing...Executing lab1prob1, process id 17564, iteration number 10
+lab1prob1 is now executing...Executing lab1prob1, process id 17565, iteration number 10
+lab1prob1 is now executing...

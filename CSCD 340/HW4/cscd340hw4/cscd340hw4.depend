@@ -1,0 +1,22 @@
+# depslib dependency file v1.0
+1415997793 source:c:\users\csfaculty\documents\cscd 340\hw4\cscd340hw4\cscd340hw4.c
+	<stdio.h>
+	<stdlib.h>
+	"memory.h"
+
+1415948533 c:\users\csfaculty\documents\cscd 340\hw4\cscd340hw4\memory.h
+	<stdlib.h>
+	<stdio.h>
+	"linkedList.h"
+
+1415985805 c:\users\csfaculty\documents\cscd 340\hw4\cscd340hw4\linkedlist.h
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
+1415983648 source:c:\users\csfaculty\documents\cscd 340\hw4\cscd340hw4\linkedlist.c
+	"linkedList.h"
+
+1415988615 source:c:\users\csfaculty\documents\cscd 340\hw4\cscd340hw4\memory.c
+	"memory.h"
+

@@ -1,0 +1,21 @@
+5 article
+the
+a
+one
+some
+any
+3 noun
+boy
+girl
+dog
+4 verb
+drove
+jumped
+walked
+skipped
+5 preposition
+to
+from
+over
+under
+on

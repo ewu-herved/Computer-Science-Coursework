@@ -1,0 +1,32 @@
+
+Purchase order#: 102, Date: Sat Apr 27 hh:mm:ss PDT YYYY
+	Vendor: 501  Status: Approved
+	Item: 24 - Lumia 300 Quantity: 2, Cost: 866.0 Markup: 2.0
+	Item: 86 - iPhone 4S Quantity: 1, Cost: 721.5 Markup: 1.75
+
+	Quantity on hand has been increased for Lumia 300 by 2
+	Quantity on hand has been increased for iPhone 4S by 1
+
+Purchase order#: 101, Date: Sat Apr 27 hh:mm:ss PDT YYYY
+	Vendor: 502  Status: Pending
+	Item: 42 - Lumia 900 Quantity: 2, Cost: 850.0 Markup: 1.5
+
+	Quantity on hand has been increased for Lumia 900 by 2
+
+Invoice#: 202, Date: Sat Apr 27 hh:mm:ss PDT YYYY
+	Customer: 901  Paid: true
+	Item: 681 - Lumia 822 Quantity: 3, Cost: 1411.5 Ounces: 4
+	Item: 199 - HTC One Quantity: 1, Cost: 389.0 Ounces: 5
+	Item: 1255 - Samsung Flash Quantity: 2, Cost: 250.0 Ounces: 3
+
+	Inventory has been relieved for Lumia 822 by 3
+	Inventory has been relieved for HTC One by 1
+	Inventory has been relieved for Samsung Flash by 2
+
+Invoice#: 201, Date: Sat Apr 27 hh:mm:ss PDT YYYY
+	Customer: 902  Paid: false
+	Item: 1255 - Samsung Flash Quantity: 2, Cost: 250.0 Ounces: 5
+	Item: 198 - HTC m7 Quantity: 1, Cost: 533.0 Ounces: 4
+
+	Inventory has been relieved for Samsung Flash by 2
+	Inventory has been relieved for HTC m7 by 1

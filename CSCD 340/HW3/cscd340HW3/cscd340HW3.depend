@@ -1,0 +1,23 @@
+# depslib dependency file v1.0
+1415605147 source:c:\users\dan\workspace\computer science\cscd 340\hw3\cscd340hw3\cscd340hw3.c
+	"cscd340HW3.h"
+
+1415604133 c:\users\dan\workspace\computer science\cscd 340\hw3\cscd340hw3\cscd340hw3.h
+	"process.h"
+
+1415594830 c:\users\dan\workspace\computer science\cscd 340\hw3\cscd340hw3\linkedlist.h
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
+1415599162 source:c:\users\dan\workspace\computer science\cscd 340\hw3\cscd340hw3\linkedlist.c
+	"linkedList.h"
+
+1415604210 c:\users\dan\workspace\computer science\cscd 340\hw3\cscd340hw3\process.h
+	<stdlib.h>
+	<stdio.h>
+	"linkedList.h"
+
+1415607012 source:c:\users\dan\workspace\computer science\cscd 340\hw3\cscd340hw3\process.c
+	"process.h"
+

@@ -1,0 +1,34 @@
+dherve@cscd-327-dev:~/netstorage/CSCD 327/project$ java TestMyQuery
+******** Query 1 ********
+
+Last, First, cnt
+Hart, Leigh, 9
+******** Query 2 ********
+
+charge_id
+5000
+******** Query 3 ********
+
+first, last
+Sam, Phelps
+Dave, Caulk
+Cart, Perry
+Tommy, Cat
+Tim, Simon
+Reed, Pints
+Nancy, Mansville
+Penny, Statin
+Lee, Panner
+******** Query 4 ********
+
+criminal_id, last, first, cnt_sentence
+   1030,     Panner, Lee,       2
+******** Query 5 ********
+
+precinct, charge_cnt
+WAVE    , 8
+******** Query 6 ********
+
+Please enter the officer_id for the query:
+111115
+Officer 111115 has reported 9 crimes.

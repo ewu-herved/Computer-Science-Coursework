@@ -1,0 +1,80 @@
+Welcome to Integer Fun
+Please enter a non-negative integer: 45
+
+Please select from the following menu choices:
+
+   1. Enter a new number
+   2. Print the number of odd, even and zero digits in the integer
+   3. Print the prime numbers between 2 and the integer
+   4. Print the value of e up to the number specified
+   5. Quit the program
+Choice--> 2
+
+The results for 45 are:
+Odd - 1
+Even - 1
+Zero(s) - 0
+Please select from the following menu choices:
+
+   1. Enter a new number
+   2. Print the number of odd, even and zero digits in the integer
+   3. Print the prime numbers between 2 and the integer
+   4. Print the value of e up to the number specified
+   5. Quit the program
+Choice--> 3
+
+The Prime numbers between 2 and 45 are
+2
+3
+5
+7
+11
+13
+17
+19
+23
+29
+31
+37
+41
+43
+
+
+Please select from the following menu choices:
+
+   1. Enter a new number
+   2. Print the number of odd, even and zero digits in the integer
+   3. Print the prime numbers between 2 and the integer
+   4. Print the value of e up to the number specified
+   5. Quit the program
+Choice--> 1
+Enter a new number: 8
+Please select from the following menu choices:
+
+   1. Enter a new number
+   2. Print the number of odd, even and zero digits in the integer
+   3. Print the prime numbers between 2 and the integer
+   4. Print the value of e up to the number specified
+   5. Quit the program
+Choice--> 4
+The values of e up to 8 are:
+1: 2.0000000000000000
+2: 2.5000000000000000
+3: 2.6666666666666665
+4: 2.7083333333333330
+5: 2.7166666666666663
+6: 2.7180555555555554
+7: 2.7182539682539684
+8: 2.7182787698412700
+Please select from the following menu choices:
+
+   1. Enter a new number
+   2. Print the number of odd, even and zero digits in the integer
+   3. Print the prime numbers between 2 and the integer
+   4. Print the value of e up to the number specified
+   5. Quit the program
+Choice--> 5
+
+Thank you and have a nice day.
+Process returned 5 (0x5)   execution time : 248.793 s
+Press any key to continue.

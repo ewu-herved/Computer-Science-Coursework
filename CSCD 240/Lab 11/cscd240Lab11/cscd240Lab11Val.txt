@@ -1,0 +1,194 @@
+dherve@cslinux:~/cscd240u14/Lab11$ valgrind ./lab11
+==24704== Memcheck, a memory error detector
+==24704== Copyright (C) 2002-2011, and GNU GPL'd, by Julian Seward et al.
+==24704== Using Valgrind-3.7.0 and LibVEX; rerun with -h for copyright info
+==24704== Command: ./lab11
+==24704==
+Please enter the name of an input file: data.txt
+
+
+1) Print the array sorted by street
+2) Print the array sorted by city then by zip
+3) Print the array sorted by state then city then by zip
+4) Print the array sorted by zip
+5) Quit
+Choice--> 1
+
+Address 1:
+
+123 Anywhere
+Spokane, WA 99223
+
+Address 2:
+
+2910 Sudlow
+Glendive, MT 59301
+
+Address 3:
+
+305 Caravan
+Billings, MT 59105
+
+Address 4:
+
+318 NW St
+Washington, DC 10280
+
+Address 5:
+
+319F CEB
+Cheney, WA 99004
+
+Address 6:
+
+500 Sprague Ave
+Spokane, WA 99201
+
+Address 7:
+
+6405 Colton
+Billings, MT 59106
+
+1) Print the array sorted by street
+2) Print the array sorted by city then by zip
+3) Print the array sorted by state then city then by zip
+4) Print the array sorted by zip
+5) Quit
+Choice--> 2
+
+Address 1:
+
+305 Caravan
+Billings, MT 59105
+
+Address 2:
+
+6405 Colton
+Billings, MT 59106
+
+Address 3:
+
+319F CEB
+Cheney, WA 99004
+
+Address 4:
+
+2910 Sudlow
+Glendive, MT 59301
+
+Address 5:
+
+500 Sprague Ave
+Spokane, WA 99201
+
+Address 6:
+
+123 Anywhere
+Spokane, WA 99223
+
+Address 7:
+
+318 NW St
+Washington, DC 10280
+
+1) Print the array sorted by street
+2) Print the array sorted by city then by zip
+3) Print the array sorted by state then city then by zip
+4) Print the array sorted by zip
+5) Quit
+Choice--> 3
+
+Address 1:
+
+318 NW St
+Washington, DC 10280
+
+Address 2:
+
+305 Caravan
+Billings, MT 59105
+
+Address 3:
+
+6405 Colton
+Billings, MT 59106
+
+Address 4:
+
+2910 Sudlow
+Glendive, MT 59301
+
+Address 5:
+
+319F CEB
+Cheney, WA 99004
+
+Address 6:
+
+500 Sprague Ave
+Spokane, WA 99201
+
+Address 7:
+
+123 Anywhere
+Spokane, WA 99223
+
+1) Print the array sorted by street
+2) Print the array sorted by city then by zip
+3) Print the array sorted by state then city then by zip
+4) Print the array sorted by zip
+5) Quit
+Choice--> 4
+
+Address 1:
+
+318 NW St
+Washington, DC 10280
+
+Address 2:
+
+305 Caravan
+Billings, MT 59105
+
+Address 3:
+
+6405 Colton
+Billings, MT 59106
+
+Address 4:
+
+2910 Sudlow
+Glendive, MT 59301
+
+Address 5:
+
+319F CEB
+Cheney, WA 99004
+
+Address 6:
+
+500 Sprague Ave
+Spokane, WA 99201
+
+Address 7:
+
+123 Anywhere
+Spokane, WA 99223
+
+1) Print the array sorted by street
+2) Print the array sorted by city then by zip
+3) Print the array sorted by state then city then by zip
+4) Print the array sorted by zip
+5) Quit
+Choice--> 5
+
+all done
+==24704==
+==24704== HEAP SUMMARY:
+==24704==     in use at exit: 0 bytes in 0 blocks
+==24704==   total heap usage: 23 allocs, 23 frees, 958 bytes allocated
+==24704==
+==24704== All heap blocks were freed -- no leaks are possible
+==24704==
+==24704== For counts of detected and suppressed errors, rerun with: -v
+==24704== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 2 from 2)

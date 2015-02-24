@@ -1,0 +1,17 @@
+# depslib dependency file v1.0
+1412924404 source:c:\users\csfaculty\documents\cscd 340\lab 4\cscd340lab4prob4\linkedlist.c
+	"linkedList.h"
+
+1412918790 c:\users\csfaculty\documents\cscd 340\lab 4\cscd340lab4prob4\linkedlist.h
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
+1413008466 source:c:\users\csfaculty\documents\cscd 340\lab 4\cscd340lab4prob4\cscd340lab4prob4.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<unistd.h>
+	<pthread.h>
+	"linkedList.h"
+

@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1413963734 source:c:\users\csfaculty\documents\cscd 340\lab 5\lab5pc1\lab5pc1.c
+	<stdio.h>
+	<stdlib.h>
+	<pthread.h>
+

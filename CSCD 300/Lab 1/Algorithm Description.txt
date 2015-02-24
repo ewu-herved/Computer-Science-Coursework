@@ -1,0 +1,9 @@
+The modified algorithm for binary search considers an array twice, 
+first to discover the left boundary of the element being searched for,
+and then the right boundary for the same element. In both cases it 
+continues to cut the sample in half, checking either that the low and 
+high indicies are equal to one another and the given element, or that 
+low and high are adjacent and one is the given element and the other is
+not. If either of these conditions is met, element identified within 
+these parameters is identified as being either the leftmost or
+rightmost boundary of the given element within the array. 

@@ -1,0 +1,13 @@
+all: prob1 prob2 prob3 prob4
+
+prob1: cscd340lab4prob1.c linkedlist.c
+	gcc -o prob1 cscd340lab4prob1.c linkedlist.c -lm
+
+prob2: cscd340lab4prob2.c
+	gcc -o prob2 cscd340lab3prob2.c
+
+prob3: cscd340lab4prob3.c linkedlist.c
+	gcc -o prob3 cscd340lab4prob3.c linkedlist.c
+
+prob4: cscd340lab4prob4.c linkedlist.c
+	gcc -o prob4 cscd340lab4prob4.c linkedlist.c

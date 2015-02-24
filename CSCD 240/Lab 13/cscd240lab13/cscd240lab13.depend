@@ -1,0 +1,18 @@
+# depslib dependency file v1.0
+1407299623 source:c:\users\dan\desktop\computer science\cscd 240\lab 13\cscd240lab13\binarytotxt.c
+	"FileUtil.h"
+
+1407386370 c:\users\dan\desktop\computer science\cscd 240\lab 13\cscd240lab13\fileutil.h
+	<stdio.h>
+	<stdlib.h>
+
+1407386370 source:c:\users\dan\desktop\computer science\cscd 240\lab 13\cscd240lab13\fileutil.c
+	"FileUtil.h"
+
+1407387992 source:c:\users\dan\desktop\computer science\cscd 240\lab 13\cscd240lab13\txttobinary.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<unistd.h>
+	<fcntl.h>
+

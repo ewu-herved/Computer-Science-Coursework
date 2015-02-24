@@ -1,0 +1,26 @@
+# depslib dependency file v1.0
+1407822512 source:c:\users\dan\desktop\computer science\cscd 240\assignment 3\cscd240hw3\cscd240hw3.c
+	"hw3.h"
+
+1407827440 c:\users\dan\desktop\computer science\cscd 240\assignment 3\cscd240hw3\hw3.h
+	"FileUtil.h"
+	<string.h>
+
+1407745086 c:\users\dan\desktop\computer science\cscd 240\assignment 3\cscd240hw3\list.h
+	<stdlib.h>
+	<stdio.h>
+	"hw3.h"
+
+1407714571 c:\users\dan\desktop\computer science\cscd 240\assignment 3\cscd240hw3\fileutil.h
+	<stdio.h>
+	<stdlib.h>
+
+1407727474 source:c:\users\dan\desktop\computer science\cscd 240\assignment 3\cscd240hw3\fileutil.c
+	"FileUtil.h"
+
+1407825772 source:c:\users\dan\desktop\computer science\cscd 240\assignment 3\cscd240hw3\linkedlist.c
+	"hw3.h"
+
+1407828706 source:c:\users\dan\desktop\computer science\cscd 240\assignment 3\cscd240hw3\hw3funcs.c
+	"hw3.h"
+

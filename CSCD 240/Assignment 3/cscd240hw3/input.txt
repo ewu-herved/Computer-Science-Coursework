@@ -1,0 +1,12 @@
+MSFT Microsoft
+123.45
+806
+GOOG Google Inc
+856.78
+167
+MCD McDonalds
+34.50
+100
+GOOG Google Inc
+678.98
+2

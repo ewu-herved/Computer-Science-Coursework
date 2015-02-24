@@ -1,0 +1,21 @@
+# depslib dependency file v1.0
+1406254411 source:c:\users\dan\desktop\computer science\cscd 240\lab 8\cscd240lab8\cscd240lab8.c
+	"lab8.h"
+
+1406253584 c:\users\dan\desktop\computer science\cscd 240\lab 8\cscd240lab8\lab8.h
+	<stdlib.h>
+	<stdio.h>
+	<math.h>
+	"FileUtil.h"
+
+1406181247 c:\users\dan\desktop\computer science\cscd 240\lab 8\cscd240lab8\fileutil.h
+	<stdio.h>
+	<stdlib.h>
+
+1406185235 source:c:\users\dan\desktop\computer science\cscd 240\lab 8\cscd240lab8\fileutil.c
+	"FileUtil.h"
+
+1406253634 source:c:\users\dan\desktop\computer science\cscd 240\lab 8\cscd240lab8\funclab8.c
+	<math.h>
+	"lab8.h"
+

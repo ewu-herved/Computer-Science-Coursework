@@ -1,0 +1,11 @@
+# depslib dependency file v1.0
+1407123773 source:c:\users\dan\desktop\computer science\cscd 240\lab 12\cscd240lab12\cscd240lab12.c
+	"list.h"
+
+1407123760 c:\users\dan\desktop\computer science\cscd 240\lab 12\cscd240lab12\list.h
+	<stdlib.h>
+	<stdio.h>
+
+1407123738 source:c:\users\dan\desktop\computer science\cscd 240\lab 12\cscd240lab12\linkedlist.c
+	"list.h"
+

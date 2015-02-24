@@ -1,0 +1,21 @@
+# depslib dependency file v1.0
+1406676588 source:c:\users\dan\desktop\computer science\cscd 240\assignment 2\cscd240hw2\cscd240hw2.c
+	"cscd240hw2.h"
+
+1406624483 source:c:\users\dan\desktop\computer science\cscd 240\assignment 2\cscd240hw2\fileutil.c
+	"FileUtil.h"
+
+1405210059 c:\users\dan\desktop\computer science\cscd 240\assignment 2\cscd240hw2\fileutil.h
+	<stdio.h>
+	<stdlib.h>
+
+1406676454 source:c:\users\dan\desktop\computer science\cscd 240\assignment 2\cscd240hw2\hw2funcs.c
+	"cscd240hw2.h"
+
+1406676454 c:\users\dan\desktop\computer science\cscd 240\assignment 2\cscd240hw2\cscd240hw2.h
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<time.h>
+	"FileUtil.h"
+

@@ -1,0 +1,28 @@
+Stu Steiner 
+123 Slacker Lane 
+Slackerville, IL 09035 
+Tom Capaul 
+999 Computer Nerd Court 
+Dweebsville, NC 28804-1359 
+0.50 
+Tom Capaul 
+999 Computer Nerd Court 
+Dweebsville, NC 28804-1359 
+Chris Peters
+123 Some St.
+Anytown, CA 92111-0389 
+1.55
+Tom Capaul 
+999 Computer Nerd Court 
+Dweebsville, NC 28804-1359
+Joann Capaul
+997 Computer Nerd Court
+Dweebsville, NC 28804-1359
+0.35
+Joann Capaul
+997 Computer Nerd Court
+Dweebsville, NC 28804-1359
+Tom Nemesis 
+997 Technopeasant Lane 
+Dweebsville, NC 28804-1359
+2.73

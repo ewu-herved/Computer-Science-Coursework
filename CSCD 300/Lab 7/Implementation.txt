@@ -1,0 +1,30 @@
+Dan Herve
+CSCD 300
+Program 7
+
+Test_Hashchain:
+
+Main class. Reads student data from a file and puts it into a hashmap.
+Runs a menu from whence the user may add new students to the table,
+delete students, search for students, or print the whole map of 
+students.
+
+LinkedList:
+
+Linked List with dummy head node. Has an embedded Node class. Methods exist to add nodes at the
+beginning of the list, remove a node from the beginning of the list, 
+add a node in order, or remove a node in order, clear the list, print
+the list, or search for a node in the list. 
+
+Student:
+
+Contains data fields id and name for students. Also contains a 
+compareTo method and a couple toString methods. 
+
+Hashchain:
+
+An array of Linkedlists. Has a getSize method that returns the number
+of elements in the hashmap. Has a get method that returns a comparable
+if it exists. Has a put method that adds a new Comparable to the map.
+Has a remove method to remove elements. Has a print all method to 
+print the whole map. 

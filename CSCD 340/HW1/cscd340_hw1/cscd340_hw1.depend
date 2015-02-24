@@ -1,0 +1,22 @@
+# depslib dependency file v1.0
+1411958771 source:c:\users\dan\desktop\computer science\cscd 340\hw1\cscd340_hw1\cscd340_hw1.c
+	"linkedList.h"
+	"utility.h"
+
+1411933133 c:\users\dan\desktop\computer science\cscd 340\hw1\cscd340_hw1\linkedlist.h
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
+1411933144 c:\users\dan\desktop\computer science\cscd 340\hw1\cscd340_hw1\utility.h
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"linkedList.h"
+
+1411960285 source:c:\users\dan\desktop\computer science\cscd 340\hw1\cscd340_hw1\linkedlist.c
+	"linkedlist.h"
+
+1411960421 source:c:\users\dan\desktop\computer science\cscd 340\hw1\cscd340_hw1\utility.c
+	"utility.h"
+

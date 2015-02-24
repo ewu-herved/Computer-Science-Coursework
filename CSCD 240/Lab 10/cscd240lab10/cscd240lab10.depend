@@ -1,0 +1,12 @@
+# depslib dependency file v1.0
+1406783412 source:c:\users\dan\desktop\computer science\cscd 240\lab 10\cscd240lab10\cscd240lab10.c
+	"lab10.h"
+
+1406782985 c:\users\dan\desktop\computer science\cscd 240\lab 10\cscd240lab10\lab10.h
+	<stdlib.h>
+	<stdio.h>
+	<time.h>
+
+1406783926 source:c:\users\dan\desktop\computer science\cscd 240\lab 10\cscd240lab10\lab10funcs.c
+	"lab10.h"
+

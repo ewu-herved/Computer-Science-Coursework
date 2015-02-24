@@ -1,0 +1,47 @@
+# depslib dependency file v1.0
+1385320478 source:c:\users\dan\desktop\computer science\cscd 240\lab 13\cscd240lab13_2\main.c
+	<stdio.h>
+	<stdlib.h>
+
+1407384377 source:c:\users\dan\desktop\computer science\cscd 240\lab 13\cscd240lab13_2\fileutil.c
+	"FileUtil.h"
+
+1407384377 c:\users\dan\desktop\computer science\cscd 240\lab 13\cscd240lab13_2\fileutil.h
+	<stdio.h>
+	<stdlib.h>
+	<fcntl.h>
+
+1407388221 source:c:\users\dan\desktop\computer science\cscd 240\lab 13\cscd240lab13_2\binarytotxt.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<fcntl.h>
+	<unistd.h>
+
+1407356675 source:n:\cscd 240\assignments\lab 13\cscd240lab13_2\binarytotxt.c
+	"FileUtil.h"
+	<string.h>
+	<fcntl.h>
+
+1407299606 n:\cscd 240\assignments\lab 13\cscd240lab13_2\fileutil.h
+	<stdio.h>
+	<stdlib.h>
+	<fcntl.h>
+
+1407304344 source:n:\cscd 240\assignments\lab 13\cscd240lab13_2\fileutil.c
+	"FileUtil.h"
+
+1407369092 source:\\netstorage.eastern.ewu.edu\dherve\cscd 240\assignments\lab 13\cscd240lab13_2\binarytotxt.c
+	"FileUtil.h"
+	<string.h>
+	<fcntl.h>
+	<unistd.h>
+
+1407299606 \\netstorage.eastern.ewu.edu\dherve\cscd 240\assignments\lab 13\cscd240lab13_2\fileutil.h
+	<stdio.h>
+	<stdlib.h>
+	<fcntl.h>
+
+1407304344 source:\\netstorage.eastern.ewu.edu\dherve\cscd 240\assignments\lab 13\cscd240lab13_2\fileutil.c
+	"FileUtil.h"
+

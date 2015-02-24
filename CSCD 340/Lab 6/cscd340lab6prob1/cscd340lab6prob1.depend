@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1414290209 source:c:\users\csfaculty\documents\cscd 340\lab 6\cscd340lab6prob1\cscd340lab6prob1.c
+	<stdio.h>
+	<stdlib.h>
+	<pthread.h>
+

@@ -1,0 +1,15 @@
+a) Does the stack grow up or down?  How do you know? Justify your answer.
+
+b) What version of GCC are you using?
+
+c) What version of Linux are you using?
+
+d) What is odd about how memory is arranged compared to the declarations?
+
+e) Run the program twice and each time construct a memory map.
+
+f) Did the addresses change between runs? Why or why not? Justify your answer.
+
+g) How many bytes are allocated by the calloc?
+
+h) How many bytes are leaked? Provide the valgrind output below.

@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1412405215 source:c:\users\csfaculty\documents\cscd 340\lab 2\cscd340_lab2\binarytotxt.c
+	<stdlib.h>
+	<stdio.h>
+	<fcntl.h>
+	<unistd.h>
+

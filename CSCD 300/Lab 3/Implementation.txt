@@ -1,0 +1,38 @@
+Dan Herve
+CSCD 300: Lab 3
+
+RoundRobin_Processing.java:
+
+The circular linked list is entirely contained in one java file.
+This file contains all methods pertaining to the linked list as 
+well as the Node Class and its methods. Gets and sets are unneccessary
+for the Node class since only the linked list class, RoundRobin_Processing,
+access it. 
+
+The Node class contains only the pID (process id) and data (processing time) 
+data fields. The RoundRobin_Processing (linked list) class contains the head Node,
+tail Node, and size data fields. It contains only those methods which are 
+necessary for carrying out the assigment. These are:
+
+addEmpty(int, int) : adds a node to an empty list
+
+addFirst(int, int) : adds a node to the beginning of a list
+
+add(int, int) : adds a node ordered by the pID
+
+remove(int) : removes a node based on pID
+
+process(int) : cycles through nodes subtracting the parameter serviceTime
+from the data portion of the nodes on each pass. When the data field of a node
+is reduced to 0 or less, it is removed from the list and it's pID is printed to 
+the output.
+
+getSize : gets the size of the list; not used.
+
+toString : returns a string of the list; not used.
+
+Test_RoundRobin.java:
+
+Consists only of the main method. It takes input from the command line. The 
+input it requires are the file to read the processes from (formated x,y on 
+each line with x being the pID and y being the time needed by the process).

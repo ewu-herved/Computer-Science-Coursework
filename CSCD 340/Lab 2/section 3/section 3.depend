@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1412401687 source:c:\users\csfaculty\documents\cscd 340\lab 2\section 3\syscalls.c
+	<stdlib.h>
+	<stdio.h>
+

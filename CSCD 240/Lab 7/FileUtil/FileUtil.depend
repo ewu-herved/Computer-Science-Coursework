@@ -1,0 +1,11 @@
+# depslib dependency file v1.0
+1405206747 source:c:\users\dan\desktop\computer science\cscd 240\lab 7\fileutil\main.c
+	"FileUtil.h"
+
+1405210059 c:\users\dan\desktop\computer science\cscd 240\lab 7\fileutil\fileutil.h
+	<stdio.h>
+	<stdlib.h>
+
+1405210059 source:c:\users\dan\desktop\computer science\cscd 240\lab 7\fileutil\fileutil.c
+	"FileUtil.h"
+

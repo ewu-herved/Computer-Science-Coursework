@@ -1,0 +1,30 @@
+Dan Herve
+CSCD 300
+Lab 5
+
+Node.java:
+
+Basic node class for use by LinkedList.java. Includes Node next and 
+Comparable data as it's private data fields.
+
+ListQueue.java:
+
+Singly-linked list with a dummy head node and a tail node. Enqueues
+the dequeued data from the ArrayLists in ascending order.
+
+ArrayQueue.java:
+
+Data from the files is stored in these size 10 arrays. There exists an
+array for every file given. When all of the arrays are at capacity, 
+they will dequeue the smallest head value among them until they are 
+all empty. They will then receive data from the files once more. This 
+will continue until the files have been entirely run through and the
+ArrayLists are empty. 
+
+Test_Merge.java:
+
+This is the driver class. It will take any number of filename arguments
+from the console and attempt to put them in a dynamic Scanner array. 
+It will then input the data from these files into ArrayQueues and
+combine these into one ListQueue. Finally, it will dequeue the ListQueue
+and print the results.

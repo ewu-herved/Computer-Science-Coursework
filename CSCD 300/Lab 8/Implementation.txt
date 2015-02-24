@@ -1,0 +1,92 @@
+Dan Herve
+CSCD 300: Lab 8
+
+BST class:
+
+Contains Node root as it's only member variable
+
+Method 1: Node search(int key)
+	Searches for a Node in the BST with the given key value. Returns
+	the Node if it's found, otherwise returns null.
+
+Method 2: Node insert(int key)
+	Creates a new Node with the given key value. Checks the values
+	of each Node under root and inserts the new Node where appropriate.
+
+Method 3: public Node delete(int key)
+	Searches for a Node in the BST with a key matching the given key.
+	Calls the void delete(Node node) method if a matching Node is found.
+
+Method 4: void delete(Node node)
+	Checks to see what child Nodes the given Node has and removes the
+	Node accordingly using the transplant method.
+
+Method 5: void transplant(Node old_subtree, Node new_subtree)
+	Replaces the old subtree with the new subtree.
+
+Method 6: void inOrder_traversal(Node subtree_root)
+	Recursively prints out the given subtree by the left subtree first, 
+	then traverse the root, then traverse the right subtree of the root.
+
+Method 7: void preOrder_traversal(Node subtree_root)
+	Recursively prints out the given subtree by the root first, then 
+	traverse the left subtree, then traverse the right subtree of the root.
+
+Method 8: void postOrder_traversal(Node subtree_root)
+	Recursively prints out the given subtree by the left subtree first, 
+	then traverse the right subtree of the root, then traverse the root.
+
+Method 9: void levelOrder_traversal(Node subtree_root)
+	Recursively prints out the given subtree by all the tree nodes from 
+	the top level to the bottom level. In each particular level, traverse 
+	the tree nodes from the left to the right.
+
+Method 10: Node max(Node subtree_root)
+	Returns the largest-valued Node in the given subtree.
+
+Method 11: Node min(Node subtree_root)
+	Returns the smallest-valued Node in the given subtree.
+
+Method 12: Node successor(Node node) 
+	Returns the Node with the next-largest value from the BST
+
+Method 13: Node predeccessor(Node node) 
+	Returns the Node with the next-smallest value from the BST
+
+
+ListQueue Class:
+
+Contains Node head, Node tail, and int size as it's private member varaiables.
+
+Embedded Node class:
+
+Contains Comparable data and Node next as it's private member varaiables.
+
+Relavent EVC: Node(Comparable data)
+
+Used ListQueue Methods:
+
+Method 1: void enqueue(Comparable data)
+	inserts a new Node at the end of the queue
+
+Method 2: Comparable dequeue()
+	deletes and returns the first Node from the queue
+
+
+Node Class:
+
+EVC: Node(Comparable key)
+
+Has a compareTo method.
+
+
+Test_BST Class:
+
+Only contains main.
+
+Reads ints from a file and creates a BST with the data from a file specified
+at runtime. Prints a menu to the screen whereby the user can manipulate the 
+list with the options required by the assignment. 
+
+Contains Comparable key, Node parent, Node left, and Node right as it's private
+member varaiables.

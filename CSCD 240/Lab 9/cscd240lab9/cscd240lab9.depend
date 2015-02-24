@@ -1,0 +1,20 @@
+# depslib dependency file v1.0
+1406695408 source:c:\users\dan\desktop\computer science\cscd 240\lab 9\cscd240lab9\cscd240lab9.c
+	"lab9.h"
+
+1406792903 c:\users\dan\desktop\computer science\cscd 240\lab 9\cscd240lab9\lab9.h
+	<stdlib.h>
+	<stdio.h>
+	<string.h>
+	"FileUtil.h"
+
+1406695408 c:\users\dan\desktop\computer science\cscd 240\lab 9\cscd240lab9\fileutil.h
+	<stdio.h>
+	<stdlib.h>
+
+1406695408 source:c:\users\dan\desktop\computer science\cscd 240\lab 9\cscd240lab9\fileutil.c
+	"FileUtil.h"
+
+1406792382 source:c:\users\dan\desktop\computer science\cscd 240\lab 9\cscd240lab9\lab9funcs.c
+	"lab9.h"
+

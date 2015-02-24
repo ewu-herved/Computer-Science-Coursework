@@ -1,0 +1,8 @@
+ArtBase:
+
+artists(names, birthplace, age, artstyle)
+artwork(artist, year_produced, title, art_type, price)
+Art_type_Group(group_name, art_type)
+Artist_Group(group_name, artist_name, age, birthplace)
+Century_Produced_Group(group_name, century_produced)
+customers(name, address, amount_spent, preferred_artists, preferred_group)

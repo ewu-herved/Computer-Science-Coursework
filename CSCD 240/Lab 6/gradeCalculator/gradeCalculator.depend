@@ -1,0 +1,18 @@
+# depslib dependency file v1.0
+1405065235 source:c:\users\dan\desktop\computer science\cscd 240\lab 6\gradecalculator\gradecalculator.c
+	"gradeCalculator.h"
+	<stdlib.h>
+	<stdio.h>
+	<string.h>
+
+1405059900 c:\users\dan\desktop\computer science\cscd 240\lab 6\gradecalculator\gradecalculator.h
+	<stdlib.h>
+	<stdio.h>
+	<string.h>
+
+1405040758 source:c:\users\dan\desktop\computer science\cscd 240\lab 6\gradecalculator\main.c
+	"gradeCalculator.h"
+
+1405057891 source:c:\users\dan\desktop\computer science\cscd 240\lab 6\gradecalculator\gradetester.c
+	"gradeCalculator.h"
+

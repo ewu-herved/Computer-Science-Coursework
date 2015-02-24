@@ -1,0 +1,74 @@
+dherve@cslinux:~/cscd340/HW1$ ./hw1
+Please enter the name of an input file: input.txt
+
+
+1) Print the List
+2) Add First
+3) Add Last
+4) Sort the List(ascending order)
+5) Delete a Word
+6) Quit -
+
+Choice--> 1
+
+[a, aardvark, aback, abacus, abaft, abalone, abandon, abandoned, abase, abash, abate, azure, b, babble, babe, babel, baboon, babushka, baby, baccalaureate, bacchanalia, bachelor, bacillus, back]
+
+1) Print the List
+2) Add First
+3) Add Last
+4) Sort the List(ascending order)
+5) Delete a Word
+6) Quit -
+
+Choice--> 2
+
+What word would you like to add or remove: zed
+1) Print the List
+2) Add First
+3) Add Last
+4) Sort the List(ascending order)
+5) Delete a Word
+6) Quit -
+
+Choice--> 3
+
+What word would you like to add or remove: apple
+1) Print the List
+2) Add First
+3) Add Last
+4) Sort the List(ascending order)
+5) Delete a Word
+6) Quit -
+
+Choice--> 5
+
+1) Print the List
+2) Add First
+3) Add Last
+4) Sort the List(ascending order)
+5) Delete a Word
+6) Quit -
+
+Choice--> 4
+
+1) Print the List
+2) Add First
+3) Add Last
+4) Sort the List(ascending order)
+5) Delete a Word
+6) Quit -
+
+Choice--> 1
+
+[aardvark, aback, abacus, abaft, abalone, abandon, abandoned, abase, abash, abate, apple, azure, b, babble, babe, babel, baboon, babushka, baby, baccalaureate, bacchanalia, bachelor, bacillus, back, zed]
+
+1) Print the List
+2) Add First
+3) Add Last
+4) Sort the List(ascending order)
+5) Delete a Word
+6) Quit -
+
+Choice--> 6
+
+dherve@cslinux:~/cscd340/HW1$

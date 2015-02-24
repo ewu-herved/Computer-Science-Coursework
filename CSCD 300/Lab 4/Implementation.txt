@@ -1,0 +1,10 @@
+Dan Herve
+CSCD 300: Lab 4
+
+The Test_Postfix java file takes a .txt file as input and reads it line
+by line. If it encounters an integer, it will store it on the stack
+using a link list implementation. When it encounters an operator, it
+will pop the operator and the most recent integers on the stack and 
+complete the operation. It will put the result back onto the stack. If
+there are more lines to be read it will continue, otherwise it will 
+print the result. 

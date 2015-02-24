@@ -1,0 +1,59 @@
+Size of List is: 0
+Empty List
+
+Size of List is: 5
+[14, 13, 12, 11, 10]
+
+Size of List is: 11
+[14, 13, 12, 11, 10, 6, 5, 4, 3, 2, 1]
+
+Index Out of Bounds!
+Not Added
+
+Size of List is: 12
+[14, 13, 12, 35, 11, 10, 6, 5, 4, 3, 2, 1]
+
+Size of List is: 13
+[55, 14, 13, 12, 35, 11, 10, 6, 5, 4, 3, 2, 1]
+
+Size of List is: 14
+[55, 14, 13, 12, 35, 11, 10, 6, 5, 4, 3, 2, 1, 77]
+
+Size of List is: 14
+[1, 2, 3, 4, 5, 6, 10, 11, 12, 13, 14, 35, 55, 77]
+
+Removed Node value was: 77
+Size of List is: 13
+[1, 2, 3, 4, 5, 6, 10, 11, 12, 13, 14, 35, 55]
+
+Index Out of Bounds!
+Not Removed
+
+Removed Node value was: 1
+Size of List is: 12
+[2, 3, 4, 5, 6, 10, 11, 12, 13, 14, 35, 55]
+
+Removed Node value was: 10
+Size of List is: 11
+[2, 3, 4, 5, 6, 11, 12, 13, 14, 35, 55]
+
+Attempting to remove 5
+Size of List is: 10
+[2, 3, 4, 6, 11, 12, 13, 14, 35, 55]
+
+Attempting to remove 2
+Size of List is: 9
+[3, 4, 6, 11, 12, 13, 14, 35, 55]
+
+Attempting to remove 99
+Not Removed
+
+Attempting to remove 55
+Size of List is: 8
+[3, 4, 6, 11, 12, 13, 14, 35]
+
+Size of List is: 8
+[3, 4, 6, 11, 12, 13, 14, 35]
+
+Size of List is: 0
+Empty List
